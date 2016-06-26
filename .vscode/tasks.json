@@ -1,0 +1,19 @@
+{
+    "version": "0.1.0",
+    "command": "gulp",//dotnet
+    "isShellCommand": true,
+    "args": [],
+    "tasks": [
+        {
+            "taskName": "build",
+            "args": [],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "default",
+            "isBuildCommand": true,
+            "showOutput": "always"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "webapplication",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "typings install",
+    "typings": "typings"
+  },
+  "dependencies": {
+    "@angular/common": "2.0.0-rc.3",
+    "@angular/compiler": "2.0.0-rc.3",
+    "@angular/core": "2.0.0-rc.3",
+    "@angular/forms": "^0.1.1",
+    "@angular/http": "2.0.0-rc.3",
+    "@angular/platform-browser": "2.0.0-rc.3",
+    "@angular/platform-browser-dynamic": "2.0.0-rc.3",
+    "@angular/router": "^3.0.0-alpha.7",
+    "@angular/upgrade": "2.0.0-rc.3",
+    "angular2-in-memory-web-api": "0.0.12",
+    "body-parser": "^1.15.2",
+    "bootstrap": "^3.3.6",
+    "core-js": "^2.4.0",
+    "express": "^4.14.0",
+    "pluralize": "^3.0.0",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "^5.0.0-beta.9",
+    "socket.io": "^1.4.8",
+    "systemjs": "^0.19.31",
+    "zone.js": "^0.6.12"
+  },
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-concat": "2.6.0",
+    "gulp-cssmin": "0.1.7",
+    "gulp-typescript": "^2.13.6",
+    "imports-loader": "^0.6.5",
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-stream": "^3.2.0",
+    "rimraf": "2.5.2"
+  }
+}
